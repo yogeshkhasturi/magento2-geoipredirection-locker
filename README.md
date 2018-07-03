@@ -17,5 +17,5 @@ Display 403 Access Denied text for users from the denied locations/ blacklisted 
 # Redirect users to a specific store view
 The module automatically determines visitors' locations and redirects them to the correct store view. With the help of the extension, you can improve customers' shopping experience by showing localized information - familiar languages.
 
-#Block by IP address
+# Block by IP address
 You can Block IP to access website even from allowed countries.
