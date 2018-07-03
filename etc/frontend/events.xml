@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Yogesh Khasturi. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_predispatch">
+        <observer name="yogeshkhasturi_geolock_observer_locker"
+                  instance="YogeshKhasturi\GeoIpRedirection\Observer\Locker"
+        />
+    </event>
+</config>
